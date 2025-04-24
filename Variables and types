@@ -23,5 +23,7 @@ int main() {
 
     const short AGE = 21;
 
+    char symbol = 'S'
+
     return 0;
 }
