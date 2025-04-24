@@ -1,0 +1,27 @@
+// Before the start, we need to #include two "library".
+
+#include <stdio.h> // Its for function printf, scanf and others.
+#include <stdbool.h> // for work with boolean type
+
+// That create variable, we must to write type of variable and name.
+// Int, long and short - most popular types for digital.
+int main() {
+    int age_1;
+    age_1 = 21;
+    // Or
+    int age_2 = 21;
+    short num3 = 20;
+    long num4 = 44;
+    long int num5 = 11;
+
+    printf("age_1 = %d\n", age_1);
+    int scan;
+    scanf("%d", &scan);
+    printf("scan = %d\n", scan);
+
+    bool flag = true;
+
+    const short AGE = 21;
+
+    return 0;
+}
